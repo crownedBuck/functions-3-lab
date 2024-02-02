@@ -13,7 +13,7 @@ let numbers = [40, 68, 14, 90, 49];
 
 // console.log(divideByTwo);
 
-numbers.forEach(function(numbersElement, numbersIndex) {
+numbers.forEach(function(numbersElement) {
   const divideByTwo = numbersElement / 2
   console.log(divideByTwo)
 })
